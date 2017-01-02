@@ -1,0 +1,181 @@
+body {
+  font-family: 'Source Sans Pro';
+  margin-left: 3%; 
+  margin-right: 3%; 
+  background-color: #FCFCFC;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  float: right;
+  vertical-align: top;
+
+}
+
+h1.title {
+    font-size: 36pt;
+    font-weight: normal;
+    color: #112128;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 5px;
+}
+
+.selectDivContainer {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    float: left;
+}
+
+.selectDivContainer h1 {
+    float: left;
+    font-size: 24pt;
+    margin: 0px 20px 0px 0px ;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    color: #112128;
+    letter-spacing: 3px;
+}
+
+.rightIcon {
+    float: right;
+    margin-right: 7px;
+    width: 30px;
+}
+
+table.workSpaceTable {
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro';
+}
+
+table.workSpaceTable thead tr{
+    height: 60px;
+}
+
+table.workSpaceTable tr th {
+    color: #38454f;
+    text-align: left;
+    font-size: 20pt;
+}
+
+table.workSpaceTable tr th {
+    border-bottom: 2px solid #38454f;
+    letter-spacing: 3px;
+}
+
+table.workSpaceTable tr td:first-child {
+    width: 42%;
+}
+
+table.workSpaceTable tr td {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    vertical-align: middle;
+    height: 60px;
+}
+
+table.workSpaceTable td {
+    font-size: 17pt;
+    color: #6a747b;
+}
+
+table.workSpaceTable tr td {
+    border-bottom: 1px solid #a5b2b7;
+}
+
+.workSpaceIcon img {
+    width: 24px;
+    float: left;
+    margin-top: 2px;
+}
+.workSpaceIcon {
+    float: left;
+    width: 30px;
+    height: 36px;
+    vertical-align: middle;
+    padding: 14px
+}
+.workspaceText {
+    float: left;
+    width: 90%;
+    padding-top:10px
+}
+
+.workspaceText h1 {
+    margin: 0px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 17pt;
+    margin-left: 2px;
+    color: #6a747b;
+    letter-spacing: 3px;
+}
+.workspaceText p {
+    margin: 0px;
+    font-size: 11pt;
+    color: #6a747b;
+    letter-spacing: 2px;
+
+}
+
+.alignCenter {
+    text-align: center !important;
+}
+
+/*--------------------------------------*/
+
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: 240px;
+}
+
+.selectdiv:after {
+    content: '\f078';
+    font: normal 17px/1 FontAwesome;
+    color: #B9D0D7;
+    right: 11px;
+    height: 36px;
+    padding: 15px 0px 0px 8px;
+    position: absolute;
+    pointer-events: none;
+    color: #527B88;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 40px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 14px;
+    line-height: 1.75;
+    color: #527B88;
+    font-family: 'Source Sans Pro';
+    font-size: 15pt;
+
+    background-color: #B9D0D7;
+    background-image: none;
+    border: 1px solid #B9D0D7;
+    -ms-word-break: normal;
+    word-break: normal;
+    border-radius: 18px;
+}
+
+.selectdiv select:focus {
+    outline: none;
+}
