@@ -138,11 +138,12 @@ table.workSpaceTable tr td {
     font: normal 17px/1 FontAwesome;
     color: #B9D0D7;
     right: 11px;
-    height: 36px;
-    padding: 15px 0px 0px 8px;
+    height: 30px;
+    padding: 10px 0px 0px 8px;
     position: absolute;
     pointer-events: none;
     color: #527B88;
+    font-size: 15pt;
 }
 
 /* IE11 hide native button (thanks Matt!) */
@@ -159,11 +160,10 @@ display: none;
     display: block;
     width: 100%;
     max-width: 320px;
-    height: 40px;
+    height: 30px;
     float: right;
     margin: 5px 0px;
     padding: 0px 14px;
-    line-height: 1.75;
     color: #527B88;
     font-family: 'Source Sans Pro';
     font-size: 15pt;
@@ -173,7 +173,7 @@ display: none;
     border: 1px solid #B9D0D7;
     -ms-word-break: normal;
     word-break: normal;
-    border-radius: 18px;
+    border-radius: 24px;
 }
 
 .selectdiv select:focus {

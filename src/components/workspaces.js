@@ -42,7 +42,7 @@ class Feature extends Component {
                       <button type="button"
                               onClick={this.addNewWorkspace.bind(this)}
                               className="button">
-                          <img src="/src/assets/ico_newworkspace.png" alt="new workspace"/>                            
+                          <img src="/src/assets/ico_newworkspace.png" alt="new workspace" width={"30px"}/>                            
                       </button>
                   </div>
               </div>
@@ -78,7 +78,7 @@ class Feature extends Component {
   renderTableRows(){
     let wsData = this.props.workspaces_data;
     let retData = '';
-    debugger;
+
     if(typeof wsData !== 'undefined')
     {
       return wsData.map((rowData) => {
