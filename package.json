@@ -28,7 +28,7 @@
     "react-router": "^2.8.1",
     "redux": "^3.0.4",
     "redux-thunk": "^2.0.1",
-    "underscore": "^1.8.3",
-    "vi ../rux": "^4.0.0"
+    "react-redux": "^4.0.0",
+    "underscore": "^1.8.3"
   }
 }
