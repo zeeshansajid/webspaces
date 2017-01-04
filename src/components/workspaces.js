@@ -5,7 +5,7 @@ import moment from 'moment';
 import truncate from 'lodash.truncate';
 
 class Feature extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.fetchWorkspacesData();
   }
 
